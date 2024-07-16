@@ -48,6 +48,104 @@ body {
   margin-left: 0rem;
 }
 
+.in-domain-container_main {
+  background-color: #2b63a3;
+}
+
+.in-domain-container {
+  padding: 10rem 0;
+  display: flex;
+  align-items: center;
+}
+.in-domain-container .in-domain-hero-2 {
+  font-size: 18px;
+  color: #fff;
+}
+.in-domain-container .in-domain-hero-2 .in-domain-prince_1 span {
+  font-size: 20px;
+  text-decoration: line-through;
+}
+.in-domain-container .in-domain-hero-2 .in-domain-prince_1 span:not(:first-child) {
+  margin-left: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  background-color: rgb(105, 149, 213);
+  padding: 6px 10px;
+  border-radius: 7px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.in-domain-container .in-domain-hero-2 .in-domain-prince_2 {
+  font-size: 2rem;
+}
+.in-domain-container .in-domain-hero-2 .in-domain-prince_2 .domain-inner-price span {
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.in-domain-center {
+  padding: 2rem 0;
+  font-size: 17px;
+}
+
+.in-domain-hero {
+  padding: 1px 20px 0 0;
+  border-right: 1px solid #d5dfff;
+}
+
+.in-domain-hero h1 {
+  text-align: right;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+}
+.in-domain-hero h1 .in-domain-hide {
+  display: block;
+}
+
+.input-btn-container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.ind-input-container .ind-input-btn {
+  background-color: rgba(255, 255, 255, 0.9843137255);
+  display: flex;
+  align-items: center;
+  text-align: right;
+  border-radius: 10px;
+}
+.ind-input-container .ind-input-btn input {
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  display: block;
+  width: 95%;
+  border-radius: 12px 0px 0px 12px;
+  font-size: 17px;
+}
+.ind-input-container .ind-input-btn .domain-in {
+  color: #424547;
+  background-color: #b5b6b7;
+  padding: 5px 30px 5px 20px;
+  font-size: 24px;
+  border-radius: 0 10px 10px 0px;
+}
+
+.btn-search {
+  background-color: rgb(238, 120, 17);
+  font-size: 17px;
+  padding: 10px 50px;
+  border-radius: 7px;
+  border: 1px solid #919191;
+  color: #fff;
+}
+.btn-search:hover {
+  background-color: #be600e;
+  color: #fff;
+}
+
 .main_container {
   background: linear-gradient(to right, rgba(9, 9, 9, 0.83), rgba(47, 62, 47, 0.72)), url("../img/window/windowbg.jpg");
   background-size: cover;

@@ -93,6 +93,115 @@ $one_two_three_color :rgb(255 89 18);
         }
     }
 }
+// in-domain section
+.in-domain-container_main{
+    background-color: #2b63a3;
+}
+.in-domain-container{
+     padding: 10rem 0;
+    display: flex;
+    align-items: center;
+    .in-domain-hero-2{      
+            font-size: 18px;
+            color: #fff;
+        .in-domain-prince_1{
+            span{
+                font-size: 20px;
+                text-decoration: line-through;
+            }
+            span:not(:first-child){
+                margin-left: 20px;
+                font-size: 22px;
+                font-weight: 500;
+                background-color:rgb(105 149 213);
+                padding: 6px 10px;
+                border-radius: 7px;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+        }
+        .in-domain-prince_2{
+            font-size: 2rem;
+            .domain-inner-price{
+                span{
+                    font-size: 5rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+.in-domain-center{
+    padding: 2rem 0;
+    font-size: 17px;
+}
+.in-domain-hero{
+    padding: 1px 20px 0 0;
+    border-right: 1px solid #d5dfff;
+
+}
+
+.in-domain-hero{   
+    h1{
+        text-align: right; 
+        color: #fff;  
+        font-size: 40px;
+        font-weight: 600;     
+        .in-domain-hide{
+            display: block;
+        }
+    }
+
+}
+.input-btn-container{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.ind-input-container{    
+    
+    .ind-input-btn {
+        background-color: #fffffffb;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        border-radius: 10px ;
+
+        input{
+            outline: none;
+            border: none;
+            padding: 10px 20px;
+            display: block;
+            width: 95%;
+             border-radius: 12px 0px 0px 12px;
+            font-size: 17px;
+        }
+        .domain-in{  
+            color: #424547;          
+            background-color: #b5b6b7;
+            padding:5px 30px 5px 20px;
+            font-size: 24px;
+            border-radius: 0  10px 10px 0px;
+            
+        }
+    }
+    
+}
+.btn-search{
+        background-color: rgb(238, 120, 17);
+        font-size: 17px;
+        padding: 10px 50px;
+        border-radius: 7px;
+        border: 1px solid #919191;
+        color: #fff;
+        &:hover{
+            background-color: darken($color: rgb(238, 120, 17), $amount: 10);
+            color: #fff;
+        }
+    }
+
+
+
 // window section page
 
 .main_container{       
