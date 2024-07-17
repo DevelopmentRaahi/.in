@@ -167,7 +167,7 @@ body {
     align-items: center;
   }
   .in-domain-center {
-    width: 90%;
+    width: 94%;
     margin: 0 auto;
   }
   .btn-search {
@@ -185,8 +185,17 @@ body {
   .in-domain-hero h1 {
     font-size: 30px;
   }
+  .btn-search, .ind-input-container .ind-input-btn input {
+    font-size: 14px;
+  }
   .desc_section_bg .first_section_para p {
     font-size: 1.3rem;
+  }
+  .domain-in {
+    display: none;
+  }
+  .in-domain-container .in-domain-hero-2 .in-domain-prince_2 .domain-inner-price span {
+    font-size: 4rem;
   }
 }
 .main_container {
