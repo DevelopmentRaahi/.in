@@ -93,6 +93,8 @@ $one_two_three_color :rgb(255 89 18);
         }
     }
 }
+
+
 // in-domain section
 .in-domain-container_main{
     background-color: #2b63a3;
@@ -174,7 +176,8 @@ $one_two_three_color :rgb(255 89 18);
             display: block;
             width: 95%;
              border-radius: 12px 0px 0px 12px;
-            font-size: 17px;
+            font-size: 16px;
+            font-family: "Poppins", sans-serif;
         }
         .domain-in{  
             color: #424547;          
@@ -182,7 +185,7 @@ $one_two_three_color :rgb(255 89 18);
             padding:5px 30px 5px 20px;
             font-size: 24px;
             border-radius: 0  10px 10px 0px;
-            
+            font-family: "Poppins", sans-serif;
         }
     }
     
@@ -192,6 +195,7 @@ $one_two_three_color :rgb(255 89 18);
         font-size: 17px;
         padding: 10px 50px;
         border-radius: 7px;
+        font-family: "Poppins", sans-serif;
         border: 1px solid #919191;
         color: #fff;
         &:hover{
@@ -199,8 +203,47 @@ $one_two_three_color :rgb(255 89 18);
             color: #fff;
         }
     }
-
-
+@media screen and (max-width: 996px) {
+    .in-domain-hero{
+        border: none;
+        padding: 2px;
+    }
+    .in-domain-hero h1{
+        text-align: center;
+    }
+   .in-domain-hero h1 > .in-domain-hide{
+        display: inline;
+    }
+    .in-domain-hero-2{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .in-domain-center{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .btn-search{
+        // margin-top: 20px;
+        display: block;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+     .btn-search{
+        margin-top: 20px;
+        }
+    .in-domain-container{
+        padding: 2rem 0;
+    }
+    .in-domain-hero h1{
+        font-size: 30px;
+    }
+    .desc_section_bg .first_section_para p{
+        font-size: 1.3rem;
+    }
+}
 
 // window section page
 
@@ -617,7 +660,7 @@ $des_heading_color: #5b72a0;
             padding: 0rem 0rem 0rem 0.5rem;
             text-align: left;
             line-height: 2.5rem;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
         }
         .desc_section_bg-para{
             width: 95%;
@@ -646,7 +689,14 @@ $des_heading_color: #5b72a0;
     }
 }
 
-
+@media screen and (max-width: 767px) {
+     
+    .desc_section_bg .first_section_para p{
+        font-size: 1.3rem;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+    }
+}
 
 // price box styling
 
@@ -975,6 +1025,7 @@ $des_heading_color: #5b72a0;
 
     .main_heading-1 {
         h1 {
+            text-align: center;
             font-size: 2rem;
             font-weight: 600;
         }
