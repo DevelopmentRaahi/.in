@@ -559,7 +559,21 @@ border-radius: 5px;
     color: #1e5a9a;
     position: relative;
    }
- 
+
+
+/* .in-domain-container {
+    position: relative;
+   }
+ .in-domain-container .in-domain-img img{
+    position: absolute;   
+    top: 0;
+    bottom: 0;
+
+ }
+ .input-btn-container{
+  position: relative;
+  z-index: 2;
+  } */
 
 @media (max-width:768px)  {
   body{
