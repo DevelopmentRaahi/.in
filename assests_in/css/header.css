@@ -540,7 +540,25 @@ border-radius: 5px;
   color:#ef471d;
   font-size: 3rem;
 }
-
+.domain-why-container{
+  box-shadow: 0 0 5px rgba(128, 128, 128, 0.196);
+   padding: 10px 20px;
+   height: 100%;
+}
+.domain-why-container h4{
+ color:#ef471d;
+ font-size: 1.7rem;
+}
+.domain-why-container .why-icon{
+  margin: 10px 0;
+}
+.domain-why-container .why-icon i{
+    /* background-color: red; */
+  
+    font-size: 3rem;
+    color: #1e5a9a;
+   
+}
 
 @media (max-width:768px)  {
   body{
