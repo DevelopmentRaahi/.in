@@ -536,9 +536,16 @@ border-radius: 5px;
 
 }
 
+.in-domain{
+  color:#ef471d;
+  font-size: 3rem;
+}
+
+
 @media (max-width:768px)  {
   body{
     overflow-x: hidden !important;    
     box-sizing: border-box !important;
   }
 }
+
