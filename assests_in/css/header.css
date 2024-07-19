@@ -640,20 +640,21 @@ border-radius: 5px;
     animation-delay: 6s
 }
 
-   h1.hero-header-small {
+   .hero-header-small {
         color: #fff;
         line-height: 4.6rem;
         margin-bottom: 1rem;
         margin-left: auto;
         margin-right: auto;
-        max-width: 34.0rem;
+        max-width: 32.0rem;
         overflow: hidden;
         position: relative;
         text-align: center;
-        font-size: 3rem;
+        font-size: 2rem;
         text-transform: uppercase;
         text-shadow: 0 2px 4px rgba(0,0,0,.25);
-        font-weight: 900;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
     }
  .tlds {
     margin-left: -50%;
@@ -685,10 +686,16 @@ border-radius: 5px;
         text-align: center;
     }
      @media (max-width: 600px) {
-        h1.hero-header-small{
-          font-size: 4.5rem;
+        .hero-header-small{
+          font-size: 3.5rem;
         }
+        .tlds {
+         margin-left: -70%;
+           }
+       
      }
+
+    
 
     @media (min-width: 768px) {
         .slidingVertical {
@@ -696,10 +703,10 @@ border-radius: 5px;
         }
 
         .tlds {
-            margin-left: -40%;
+            margin-left: -70%;
         }
 
-        body h1.hero-header-small {
+        body .hero-header-small {
             line-height: 8rem;
             max-width: none;
             font-size: 7rem;
@@ -716,9 +723,25 @@ border-radius: 5px;
             display: inline-block;
             margin-left: 0;
         }
+        
 
-        body h1.hero-header-small {
+        body .hero-header-small {
+            padding-left: 7%;
+            /* padding-right: 10%; */
+            text-align: left;
+        }
+
+    }
+    @media (min-width: 1026px) {
+        .tlds {
+            display: inline-block;
+            margin-left: 0;
+        }
+        
+
+        body .hero-header-small {
             padding-left: 20%;
+            padding-right: 10%;
             text-align: left;
         }
 
