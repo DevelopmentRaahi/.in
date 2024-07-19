@@ -25,6 +25,13 @@
 //   document.body.scrollTop = 0;
 //   document.documentElement.scrollTop = 0;
 // }
+
+var typed = new Typed('.slidingVertical', {
+      strings: ['in','com', 'bank', 'insurance' ],
+      typeSpeed: 160,
+  smartBackspace: true,
+       loop: true
+    });
 var mybutton = document.getElementById("btn-back-to-top");
 var socialIcons = document.querySelector(".whatsap_button");
 
