@@ -575,6 +575,7 @@ border-radius: 5px;
   z-index: 2;
   } */
 
+
 @media (max-width:768px)  {
   body{
     overflow-x: hidden !important;    
@@ -582,3 +583,225 @@ border-radius: 5px;
   }
 }
 
+@keyframes topToBottom {
+    0% {
+        opacity: 0
+    }
+
+    5% {
+        opacity: 0;
+        -webkit-transform: translateY(-30px)
+    }
+
+    10% {
+        opacity: 1;
+        -webkit-transform: translateY(0)
+    }
+
+    25% {
+        opacity: 1;
+        -webkit-transform: translateY(0)
+    }
+
+    30% {
+        opacity: 0;
+        -webkit-transform: translateY(30px)
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+.slidingVertical span {
+    -webkit-animation: topToBottom 8s linear 0s infinite;
+    animation: topToBottom 8s linear 0s infinite;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute
+}
+
+.slidingVertical span:nth-child(2) {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s
+}
+
+.slidingVertical span:nth-child(3) {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s
+}
+
+.slidingVertical span:nth-child(4) {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s
+}
+
+   h1.hero-header-small {
+        color: #fff;
+        line-height: 4.6rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 34.0rem;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        font-size: 3rem;
+        text-transform: uppercase;
+        text-shadow: 0 2px 4px rgba(0,0,0,.25);
+        font-weight: 900;
+    }
+ .tlds {
+    margin-left: -50%;
+}
+
+    .red-dot {
+        color: rgb(255, 213, 0);
+        display: inline-block;
+    }
+
+    .slidingVertical {
+        display: inline-block;
+        height: 4rem;
+        overflow: hidden;
+    }
+
+    .slidingVertical span {
+        animation: topToBottom 8s linear 0s infinite;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .hero-sub-header {
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin: 1.0rem 0 3.0rem;
+        text-align: center;
+    }
+     @media (max-width: 600px) {
+        h1.hero-header-small{
+          font-size: 4.5rem;
+        }
+     }
+
+    @media (min-width: 768px) {
+        .slidingVertical {
+            height: 7rem;
+        }
+
+        .tlds {
+            margin-left: -40%;
+        }
+
+        body h1.hero-header-small {
+            line-height: 8rem;
+            max-width: none;
+            font-size: 7rem;
+        }
+
+        .hero-sub-header {
+            font-size: 2.6rem;
+            font-weight:700;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .tlds {
+            display: inline-block;
+            margin-left: 0;
+        }
+
+        body h1.hero-header-small {
+            padding-left: 20%;
+            text-align: left;
+        }
+
+    }
+
+    .hero__flex {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
+
+    .hero__col1,
+    .hero__col2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero__col1 a {
+        color: #fff;
+        display: inline-flex;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.6rem;
+        text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, .25);
+        margin-bottom: 2rem;
+        text-decoration: underline;
+    }
+
+    .hero__col1 a .arrowImage {
+        padding: 5px 0 0 5px;
+    }
+
+    .hero__col1 a:hover {
+        text-decoration: none;
+    }
+
+    .hero__col2 a {
+        color: #fff;
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+        text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, .25);
+    }
+
+    .hero__col2 a span {
+        font-weight: 600;
+    }
+
+    .hero__col2 a:hover {
+        text-decoration: none;
+    }
+
+    .hero__col2 a span {
+        font-weight: 700;
+    }
+
+    @media (min-width:768px) {
+
+        .hero__col1,
+        .hero__col2 {
+            width: auto;
+        }
+
+        .hero__flex {
+            justify-content: space-between;
+            margin-top: 1.5rem;
+        }
+
+        .hero__col1 a {
+            margin-bottom: 0;
+        }
+
+        .hero__col2 a {
+            margin-left: 1rem;
+        }
+    }
+
+    @media (min-width:992px) {
+        .hero__flex {
+            width: calc(114% - 156px);
+        }
+
+        .hero__col2 a {
+            font-size: 2.2rem;
+        }
+    }
