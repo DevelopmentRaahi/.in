@@ -94,6 +94,120 @@ $one_two_three_color :rgb(255 89 18);
     }
 }
 
+// package section
+ .tb-container{
+      border: 1px solid rgba(128, 128, 128, 0.165); 
+    .tb-header td {
+        background-color: rgba(153, 153, 153, 0.05);
+        padding: 20px 10px;
+
+        &:not(:first-child){
+            border-left: 1px solid rgba(153, 153, 153, 0.399);
+        }
+      
+    }
+    .tb-body{
+       
+        // background-color: rgba(255, 216, 131, 0.108);
+        td{
+         padding: 20px 10px;
+          font-size: 24px;
+          font-weight: 600; 
+          &:not(:first-child){
+            text-align: center;
+          }
+          span{
+            color:#055ba8;
+          }         
+        }
+        
+        p{
+            font-size: 18px;
+            font-weight: normal;
+        }
+        .new-price{
+            color:#ef471d;
+        }
+        .old-price{
+            font-size: 15px;
+            text-decoration: line-through;
+        }
+        .header-tag{
+            display: none;
+        }
+
+    }
+
+    .tb-header td{
+            text-align: center;
+            
+    }
+    
+    
+ }
+
+ @media screen and (max-width: 768px) {
+    .tb-container{
+        border: none;
+    
+    .tb-header{
+        display: none;
+    }
+    .tb-body{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(255, 120, 120);
+        h2{
+            font-size: 45px;
+            
+        }
+        
+        td{
+        background-color: none; 
+        width: 100%;  
+        font-size: 30px;
+            .header-tag{
+            display: block;
+            font-size: 18px;
+            font-weight: normal;
+            color: rgba(68, 49, 35, 0.903);
+        }        
+
+        }
+        td:first-child{
+            text-align: center;
+            
+        }
+         td:nth-child(2){
+           background-color:rgb(255 237 196 / 32%);
+           font-size: 45px;
+        }
+         td:nth-child(4){
+           background-color: rgba(202, 239, 255, 0.204);
+        }
+        
+
+       
+    }
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .tb-container {
+    .tb-body{
+        width: 95%;
+         h2{
+            font-size: 27px;
+        }
+    }
+    }
+ }
+
+
 
 // in-domain section
 .in-domain-container_main{

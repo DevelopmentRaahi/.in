@@ -48,6 +48,95 @@ body {
   margin-left: 0rem;
 }
 
+.tb-container {
+  border: 1px solid rgba(128, 128, 128, 0.165);
+}
+.tb-container .tb-header td {
+  background-color: rgba(153, 153, 153, 0.05);
+  padding: 20px 10px;
+}
+.tb-container .tb-header td:not(:first-child) {
+  border-left: 1px solid rgba(153, 153, 153, 0.399);
+}
+.tb-container .tb-body td {
+  padding: 20px 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.tb-container .tb-body td:not(:first-child) {
+  text-align: center;
+}
+.tb-container .tb-body td span {
+  color: #055ba8;
+}
+.tb-container .tb-body p {
+  font-size: 18px;
+  font-weight: normal;
+}
+.tb-container .tb-body .new-price {
+  color: #ef471d;
+}
+.tb-container .tb-body .old-price {
+  font-size: 15px;
+  text-decoration: line-through;
+}
+.tb-container .tb-body .header-tag {
+  display: none;
+}
+.tb-container .tb-header td {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .tb-container {
+    border: none;
+  }
+  .tb-container .tb-header {
+    display: none;
+  }
+  .tb-container .tb-body {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 120, 120);
+  }
+  .tb-container .tb-body h2 {
+    font-size: 45px;
+  }
+  .tb-container .tb-body td {
+    background-color: none;
+    width: 100%;
+    font-size: 30px;
+  }
+  .tb-container .tb-body td .header-tag {
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgba(68, 49, 35, 0.903);
+  }
+  .tb-container .tb-body td:first-child {
+    text-align: center;
+  }
+  .tb-container .tb-body td:nth-child(2) {
+    background-color: rgba(255, 237, 196, 0.32);
+    font-size: 45px;
+  }
+  .tb-container .tb-body td:nth-child(4) {
+    background-color: rgba(202, 239, 255, 0.204);
+  }
+}
+@media screen and (max-width: 600px) {
+  .tb-container .tb-body {
+    width: 95%;
+  }
+  .tb-container .tb-body h2 {
+    font-size: 27px;
+  }
+}
 .in-domain-container_main {
   background: linear-gradient(rgba(2, 2, 2, 0.75), rgba(25, 25, 25, 0.75)), url(../img/bg-domain.png);
   background-size: cover;
