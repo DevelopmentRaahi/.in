@@ -130,6 +130,20 @@ body {
   }
 }
 @media screen and (max-width: 600px) {
+  .id-header {
+    font-size: 30px;
+  }
+  .tb-container .tb-body {
+    width: 95%;
+  }
+  .tb-container .tb-body h2 {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .id-header {
+    font-size: 20px !important;
+  }
   .tb-container .tb-body {
     width: 95%;
   }

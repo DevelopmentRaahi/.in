@@ -197,6 +197,22 @@ $one_two_three_color :rgb(255 89 18);
     }
  }
  @media screen and (max-width: 600px) {
+    .id-header{
+        font-size:30px;
+    }
+    .tb-container {
+    .tb-body{
+        width: 95%;
+         h2{
+            font-size: 27px;
+        }
+    }
+    }
+ }
+ @media screen and (max-width: 450px) {
+    .id-header{
+        font-size:20px !important;
+    }
     .tb-container {
     .tb-body{
         width: 95%;
