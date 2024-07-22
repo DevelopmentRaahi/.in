@@ -100,6 +100,7 @@ $one_two_three_color :rgb(255 89 18);
     // background-color: #2b63a3;
     background: linear-gradient(rgb(2 2 2 / 67%), rgba(25, 25, 25, 0.565)), url(../img/bg-domain.png);
     background-size: cover;
+    background-position: center;
 }
 .in-domain-container{
      padding: 10rem 0;
