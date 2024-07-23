@@ -72,6 +72,14 @@ body {
 .tb-container .tb-body p {
   font-size: 18px;
   font-weight: normal;
+  font-family: "Poppins", sans-serif;
+}
+.tb-container .tb-body .tb-disclaimer {
+  max-width: 80%;
+  min-width: 100%;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
 }
 .tb-container .tb-body .new-price {
   color: #ef471d;
@@ -103,6 +111,7 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px solid rgb(255, 120, 120);
+    border-radius: 5px;
   }
   .tb-container .tb-body h2 {
     font-size: 45px;
@@ -117,6 +126,9 @@ body {
     font-size: 18px;
     font-weight: normal;
     color: rgba(68, 49, 35, 0.903);
+  }
+  .tb-container .tb-body td .tb-disclaimer {
+    text-align: center;
   }
   .tb-container .tb-body td:first-child {
     text-align: center;
@@ -138,6 +150,9 @@ body {
   }
   .tb-container .tb-body h2 {
     font-size: 27px;
+  }
+  .tb-container .tb-body .tb-disclaimer {
+    text-align: center;
   }
 }
 @media screen and (max-width: 450px) {
