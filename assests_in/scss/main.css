@@ -55,6 +55,9 @@ body {
   background-color: rgba(153, 153, 153, 0.05);
   padding: 20px 10px;
 }
+.tb-container .tb-header td .tb-disclaimer {
+  text-align: center;
+}
 .tb-container .tb-header td:not(:first-child) {
   border-left: 1px solid rgba(153, 153, 153, 0.399);
 }
@@ -80,6 +83,7 @@ body {
   font-size: 14px;
   font-weight: normal;
   font-family: "Poppins", sans-serif;
+  display: none;
 }
 .tb-container .tb-body .new-price {
   color: #ef471d;
@@ -129,6 +133,7 @@ body {
   }
   .tb-container .tb-body td .tb-disclaimer {
     text-align: center;
+    display: block;
   }
   .tb-container .tb-body td:first-child {
     text-align: center;
