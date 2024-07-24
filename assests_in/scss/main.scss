@@ -115,6 +115,19 @@ $one_two_three_color :rgb(255 89 18);
          padding: 20px 10px;
           font-size: 24px;
           font-weight: 600; 
+            position: relative;
+            .discount-tag{
+                font-size: 15px;
+                padding: 5px 10px;
+                position: absolute;
+                background-color: orangered;
+                color: #fff;
+                top: 0;
+                left: 50%;
+                transform: rotateZ(0deg) translate(-50%, -50%);;
+                
+            }
+
           &:not(:first-child){
             text-align: center;
           }
