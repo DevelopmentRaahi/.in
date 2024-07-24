@@ -72,6 +72,35 @@ body {
 .tb-container .tb-body td span {
   color: #055ba8;
 }
+.tb-container .tb-body td h2 .bi-question-circle {
+  display: inline-block;
+  color: #ef471d;
+  position: relative;
+}
+.tb-container .tb-body td h2 .bi-question-circle:hover {
+  color: #033ca8;
+}
+.tb-container .tb-body td h2 #disclaimer {
+  position: absolute;
+  top: -30px;
+  right: -150px;
+  width: 130px;
+  padding: 10px 15px;
+  line-height: 1.6;
+  font-size: 12px;
+  font-weight: 400;
+  color: #eef3f7;
+  border-radius: 10px;
+  background-color: rgb(62, 62, 62);
+  display: none;
+  transition: display 1s linear;
+}
+.tb-container .tb-body td h2 .bi-question-circle:hover #disclaimer,
+.tb-container .tb-body td h2 .bi-question-circle:active #disclaimer {
+  display: block;
+  transform: scale(115%);
+  transition: display 1s linear;
+}
 .tb-container .tb-body p {
   font-size: 18px;
   font-weight: normal;
@@ -119,6 +148,16 @@ body {
   }
   .tb-container .tb-body h2 {
     font-size: 45px;
+  }
+  .tb-container .tb-body td h2 #disclaimer {
+    left: -111px;
+    text-align: left;
+    top: -110px;
+  }
+  .tb-container .tb-body td h2 .bi-question-circle:hover #disclaimer .bi-question-circle:active #disclaimer {
+    display: block;
+    transform: scale(115%);
+    transition: display 1s linear;
   }
   .tb-container .tb-body td {
     background-color: none;
