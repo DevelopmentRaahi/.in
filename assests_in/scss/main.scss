@@ -142,12 +142,17 @@ $one_two_three_color :rgb(255 89 18);
             color:#055ba8;
           } 
           h2{  
-             .bi-question-circle{
+             .bi-exclamation-circle{
                 display: inline-block;
                 color: #ef471d;
                 position: relative;
+                
+                transition: all 0.4s;
+                // font-size: 16px;
                 &:hover{                   
-                    color:#033ca8;                   
+                    color:#033ca8;   
+                    
+                     transition: all 0.4s;            
                 } 
              }
              #disclaimer{                
@@ -166,8 +171,8 @@ $one_two_three_color :rgb(255 89 18);
                     transition: display 1s linear;          
             }    
             
-            .bi-question-circle:hover #disclaimer 
-            ,.bi-question-circle:active #disclaimer{
+            .bi-exclamation-circle:hover #disclaimer 
+            ,.bi-exclamation-circle:active #disclaimer{
                 display: block;
                 transform: scale(115%);
                 transition: display 1s linear; 
@@ -239,8 +244,8 @@ $one_two_three_color :rgb(255 89 18);
              top: -110px;
             }          
 
-            .bi-question-circle:hover #disclaimer 
-            .bi-question-circle:active #disclaimer{
+            .bi-exclamation-circle:hover #disclaimer 
+            .bi-exclamation-circle:active #disclaimer{
                
                 display: block;
                 transform: scale(115%);
