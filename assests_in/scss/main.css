@@ -81,6 +81,9 @@ body {
   left: 50%;
   transform: rotateZ(0deg) translate(-50%, -50%);
 }
+.tb-container .tb-body td p {
+  font-size: 15px;
+}
 .tb-container .tb-body td:not(:first-child) {
   text-align: center;
 }
