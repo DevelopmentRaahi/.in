@@ -25,8 +25,15 @@
 //   document.body.scrollTop = 0;
 //   document.documentElement.scrollTop = 0;
 // }
-let mybutton = document.getElementById("btn-back-to-top");
-let socialIcons = document.querySelector(".whatsap_button");
+
+var typed = new Typed('.slidingVertical', {
+  strings: [ 'in',' Co.in','Net.in','Org.in','Firm.in' ],
+      typeSpeed: 160,
+  smartBackspace: true,
+       loop: true
+    });
+var mybutton = document.getElementById("btn-back-to-top");
+var socialIcons = document.querySelector(".whatsap_button");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
